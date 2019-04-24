@@ -11,28 +11,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="crypto\ripemd160.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="crypto\sha256.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="crypto\sha512.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="test_app.cpp">
       <Filter>test</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="crypto\ripemd160.h">
+    <ClCompile Include="..\src\crypto\ripemd160.cpp">
       <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="crypto\sha256.h">
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\sha256.cpp">
       <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="crypto\sha512.h">
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\sha512.cpp">
       <Filter>src</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>
